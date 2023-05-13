@@ -1,0 +1,28 @@
+LXI H,8009
+MOV C,M
+LXI H,8010
+XRA A
+MOV E,A
+LOOP: ADD M
+JNC SKIP
+INR E
+SKIP: DCR C
+INX H
+JNZ LOOP
+LXI H,8020
+MOV M,A
+INX H
+MOV M,E
+HLT
+
+Input:
+8009 - 04 (Array size)
+  Elements
+8010 - 05
+8011 - 07
+8012 - 03
+8013 - 09
+
+Output:
+8020 - 24
+By converting 18 Hexdecimal form to Decimal form it becomes 24. where 5+7+3+9=24.

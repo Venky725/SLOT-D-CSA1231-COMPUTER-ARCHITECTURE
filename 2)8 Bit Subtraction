@@ -1,0 +1,8 @@
+MVI A,0AH
+MVI B,05H
+SUB B
+STA 2000
+HLT
+
+Output:
+2000 - 05

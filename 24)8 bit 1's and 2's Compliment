@@ -1,0 +1,13 @@
+LDA 2000
+CMA
+STA 2001
+ADI 01H
+STA 2002
+HLT
+
+Input:
+2000 - 04
+
+Output:
+2001 - 251
+2002 - 252

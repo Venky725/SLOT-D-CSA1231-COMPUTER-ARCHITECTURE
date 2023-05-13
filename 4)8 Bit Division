@@ -1,0 +1,15 @@
+MVI A,0AH
+MVI B,03H
+MVI C,00H
+LOOP: CMP B
+JC STORE 
+SUB B
+INR C
+JMP LOOP
+STORE: STA 2000
+MOV D,A
+HLT
+
+Output:
+2000 - 01 (or) Accumulator A - 01(Remainder)
+Register C - 03(Quotient)
