@@ -1,49 +1,23 @@
-# Computer_Architecture-CSA1231-Slot-D
+AND Gate
 
-1.8 bit Addition
+NAND Gate
 
-2.8 bit Subtraction
+OR Gate
 
-3.8 bit Multiplication
+NOR Gate
 
-4.8 bit Division
+XOR Gate
 
-5.16 bit Addition
+XNOR Gate
 
-6.16 bit Addition using DAD
+NOT Gate
 
-7.16 bit Subtraction
+Buffer Gate
 
-8.16 bit Multiplication
+Half Adder Circuit
 
-9.16 bit Division
+Full Adder Circuit
 
-10.AND Operation
+Half Subtractor Circuit
 
-11.OR Operation
-
-12.EXOR Operation
-
-13.Factorial of n number
-
-14.Swaping
-
-15.Smallest number in array
-
-16.Largest number in array
-
-17.Square of the number
-
-18.Sum of n numbers
-
-19.RLC
-
-20.RRC
-
-21.Ascending order
-
-22.Descending order
-
-23.16 bit 1's and 2's Compliment
-
-24.8 bit 1's and 2's Compliment
+Full Subtractor Circuit
